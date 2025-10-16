@@ -332,7 +332,6 @@ font-family: sans-serif;
     background-repeat: no-repeat;
     border-radius: 8px;
     
-    
    
 }
 
@@ -433,7 +432,7 @@ border-radius: 10px;
 
 .menu-content1 h3{
    margin-top: 5px;
-    font-size: 15px;
+    font-size: 13px;
     color: black;
 }
 .menu-content1 p{
@@ -451,7 +450,7 @@ border-radius: 10px;
 .facility{
     width: 100%;
     position: absolute;
-    top: 715vh;
+    top: 700vh;
     
     
 }
@@ -460,7 +459,7 @@ border-radius: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    height: 580px;
+    height: 640px;
    
 }
 .fac-col{
@@ -543,7 +542,7 @@ transition: 1s;
 
 .fac-content p{
     margin-bottom: 3px;
-    font-size: 8px;
+    font-size: 0px;
     line-height: 20px;
     top: 30%;
 }
@@ -551,10 +550,10 @@ transition: 1s;
 
 .fac-col1{
     height: 560px;
-    width: 20%;
+    width: 10%;
     display: flex;
     flex-direction: column;
-     
+    
        row-gap: 20px;
        
 }
