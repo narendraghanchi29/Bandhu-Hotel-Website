@@ -1,10 +1,10 @@
 
-@media(max-width:600px)     {
+@media(max-width:720px)     {
 
 
 .header{
     width: 100%;
-    height: 123vw;
+    height: 163vw;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(Bandhu_hotel.jpg);
    position:relative;
     background-size: cover;
@@ -41,7 +41,7 @@
 }
 .welcome h1{
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     font-family: serif;
     padding-bottom: 0px;
     font-weight: 700;
@@ -55,7 +55,7 @@
    
 }
 .welcome h2{
-    font-size: 25px;
+    font-size: 20px;
     font-family: Cambria;
     text-decoration: underline;
     color: rgb(255, 221, 0);
@@ -64,13 +64,14 @@
     position: absolute;
     top: 200px;
     left: 55px;
+    margin-bottom: 20px;
     
     
 }
 
 .welcome p{
 
-    margin:  10px 0px 0px;
+    margin:  30px 0px 0px;
     text-transform: capitalize;
     font-size: 10px;
     font-family: arial;
@@ -126,14 +127,14 @@ position: absolute;
     
 }
 .pure h2{
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(116, 255, 116);
     margin-bottom: 80px;
     padding-bottom: 10px;
 font-family: sans-serif;
  position: absolute;
-    top: 270px;
+    top: 320px;
     left: 55px;
 }
 
@@ -188,7 +189,7 @@ font-family: sans-serif;
     width: 100%;
     background-image: url("Bandhu_hotel.jpg");
     background-size: cover;
-    overflow: hidden;
+    
  
     margin: 5px ;
 }
@@ -474,7 +475,7 @@ border-radius: 10px;
     width: 100%;
    
     position: absolute;
-    top: 453vh;
+    top: 843vh;
     
 }
 
@@ -482,7 +483,7 @@ border-radius: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
-    height: 580px;
+    height: 610px;
    
 }
 .fac-col{
@@ -509,13 +510,13 @@ border-radius: 10px;
     white-space:inherit;
     line-height: 15px;
     padding-bottom: 15px;
-    font-size: 14px;
+    font-size: 10px;
 }
 #bandhu{
     margin-bottom: 20px;
-    padding-bottom: 20px;
+   
     color: rgb(0, 205, 130);
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 10px;
     text-decoration: underline;
 }
@@ -525,9 +526,9 @@ border-radius: 10px;
     text-align: center;
    
     background-color: rgb(224, 150, 2);
-    padding: 12px 30px;
+    padding: 0px 6px;
     margin-left: 10px;
-     margin-top: 90px;
+     margin-top: 10px;
      border: 1px solid black;
      border-radius: 40px;
   transition: 0.6s;
@@ -615,11 +616,11 @@ transition: 1s;
 .challange
 {
     
-    margin-top: 70px;
+    margin-top: 40px;
 
 }
 .challange h2{
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     margin-top: 0px;
 }
@@ -642,7 +643,7 @@ transition: 1s;
 }
 .cha-img{
     width: 90%;
-    height: 140px;
+    height: 100px;
     
     background-size: contain;
     border-radius: 20px;
@@ -657,12 +658,11 @@ transition: 1s;
 }
 .cha-col h3{
     text-align: center;
-    font-size: 15px;
-    margin-right: 55px;
-
+    font-size: 12px;
+    
 }
 .cha-col p{
-    font-size:14px;
+    font-size:10px;
     text-align: left;
     margin-left: 15px;
     
@@ -673,7 +673,7 @@ transition: 1s;
 
 .social{
     width: 100%;
-    margin-top: 200px;
+    margin-top: 140px;
 
 }
 .social h2{
@@ -683,7 +683,7 @@ transition: 1s;
 }
 
 .link-contener{
-    margin: 30px 15px;
+    margin: 30px 0px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -691,8 +691,8 @@ transition: 1s;
 .link{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 196, 0);
-    padding: 2px 6px;
-    border-radius: 30px;
+    padding: 1px 0px;
+    border-radius: 80px;
     transition: 1s;
 }
 
@@ -702,7 +702,7 @@ transition: 1s;
 }
 .link a{
     
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     text-decoration: none;
     color: black;
@@ -781,12 +781,12 @@ transition: 1s;
 .about-col-left a{
    margin-left: 20px;
     text-align: left;
-    padding: 6px 14px 0px;
+    padding: 4px 10px 0px;
     background-color: rgb(255, 136, 0);
     color: rgb(255, 255, 255);
     border-radius: 10%;
   position: absolute;
-  top: 340px;
+  top: 450px;
   left: 50px;
     
 }
@@ -802,16 +802,16 @@ transition: 1s;
 
 .about-col-right img{
   margin-top: 30px;
-    height: 300px;
-    width: 210px;
+    height: 230px;
+   
     background-size: cover;
-    margin-left: 130px;
+    margin-left: 70px;
     box-shadow: 0px 0px 69px  rgb(255, 180, 41);
     border-radius: 30px;
 }
 
 .about-col-right h2{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 
@@ -834,7 +834,7 @@ transition: 1s;
 }
 
 .thank h1{
-    font-size: 32px;
+    font-size: 25px;
     color: green;
     margin-bottom: 0px;
 
@@ -846,7 +846,7 @@ transition: 1s;
 }
 
 .thank p{
-    font-size: 20px;
+    font-size: 13px;
     margin-top: 20px;
 }
 .backtop{
@@ -857,7 +857,7 @@ transition: 1s;
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-top: 50px;
+   margin-top: 20px;
    border-radius: 20px;
    transition: 1s;
 }
@@ -874,19 +874,19 @@ transition: 1s;
 
 .rating
 {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .rating h2{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     color: orange;
 }
 
 .rating h3{
     margin-top: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
     color: rgb(4, 255, 184);
 }
 
@@ -896,21 +896,21 @@ transition: 1s;
     display: flex;
     justify-content: space-evenly;
     column-gap: 0px;
-    flex-wrap: wrap;
+     flex-wrap: wrap;
     row-gap: 20px;
 }
 
 .rat-col{
-    height: 200px;
-    flex-basis: 45%;
+    height: 130px;
+    flex-basis: 40%;
     background-color: antiquewhite;
     border-radius: 20px;
     position: relative;
 }
 
-.part{
+.part1{
     display: flex;
-    flex-direction: row;
+    
     position: relative;
 }
 .rat-img{
@@ -926,7 +926,7 @@ transition: 1s;
 
 .rat-col p{
     text-align: left;
-    font-size: 12px;
+    font-size: 8px;
    padding-left: 40px;
    top: 0px;
    color: black;
@@ -966,34 +966,34 @@ transition: 1s;
 /* contect us */
 
 .contect{
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 
 .contect h1{
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
 
 }
 .contect p{
-    font-size: 20px;
+    font-size: 13px;
     text-align: center;
     color: rgb(85, 238, 85);
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 #h3{
     margin: 3px 30px ;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     
 
 }
 
 .directcontect{
-    margin: 50px 30px;
+    margin: 20px 30px;
    text-align: center;
-   font-size: 19px;
+   font-size: 18px;
    font-weight: 550;
     
 }
@@ -1001,8 +1001,8 @@ transition: 1s;
 .directcontect h3{
     text-align: left;
    
-    font-size: 30px;
-    margin-top: 40px;
+    font-size: 15px;
+    margin-top: 30px;
     padding-left: 50px;
      text-align: left;
      margin-left: 30px;
@@ -1015,7 +1015,7 @@ transition: 1s;
 }
 .contect-col-left{
     
-     min-height: 85vh;
+     height: 450px;
     border: 2px solid orange;
     box-sizing: border-box;
     margin: 30px 0px;
@@ -1025,7 +1025,7 @@ transition: 1s;
 .contect-col-left h2{
     
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
     margin: 20px 10px ;
     padding-bottom: 10px;
     font-size: 30px;
@@ -1035,40 +1035,41 @@ transition: 1s;
 
 .input{
     margin-top: 30px;
+    margin-left: 10px;
 }
 .input input{
-    margin: 20px 20px;
-    padding: 10px 30px;
+    margin: 20px 0px;
+    padding: 5px 6px;
     font-size: 20px;
      display: block;
      border-radius: 20px;
-     margin: 20px 50px;
+     margin: 20px 0px;
 }
 
 .btn textarea{
     padding: 0px 20px;
-    font-size: 25px;
+    font-size: 18px;
     position: absolute;
    
     border-radius: 10px;
-    width: 230px;
-    height: 100px;
-    left: 50px;
+    width: 170px;
+    height: 70px;
+    left: 10px;
     
 }
 
 
 
 .submit button{
-    padding: 12px 35px;
+    padding: 12px 30px;
     background-color: orange;
     border-radius: 20px;
     color: black;
    display: inline;
   position: absolute;
-  top: 430px;
+  top: 370px;
   left: 60px;
-  font-size: 20px;
+  font-size: 10px;
   transition: 1s;
 }
 .submit button:hover{
@@ -1113,7 +1114,7 @@ body{
 }
 
 .footer p{
-    font-size: 36px;
+    font-size: 16px;
 
 }
 
