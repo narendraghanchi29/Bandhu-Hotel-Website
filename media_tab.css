@@ -1,10 +1,22 @@
 
-@media(max-width:760px)     {
+@media(min-width:768px) and (max-width:1024px)
+{
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
 
 .header{
     width: 100%;
-    height: 500px;
+    height: 80vh;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(Bandhu_hotel.jpg);
    position:relative;
     background-size: cover;
@@ -12,18 +24,18 @@
 
 }
 .navbar{
-   padding-top: 10px;
+   padding-top: 60px;
     
 }
 .navbar ul{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .navbar a{
     color: white;
-    font-weight: 500;
+    font-weight: 545;
     text-decoration: none;
-    padding-right: 6px;
-    font-size: 10px;
+    padding-right: 10px;
+    font-size: 18px;
 
     font-family: Verdana;
 }
@@ -35,37 +47,28 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    
+    padding: 220px 0px;
     position: relative;
    
 }
 .welcome h1{
     text-align: center;
-    font-size: 35px;
-    font-family: serif;
-    padding-bottom: 0px;
+    font-size: 65px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
     font-weight: 700;
-    position: absolute;
-    top: 150px;
-    left: 55px;
-     
     
    
     
    
 }
 .welcome h2{
-    font-size: 20px;
+    font-size: 35px;
     font-family: Cambria;
     text-decoration: underline;
     color: rgb(255, 221, 0);
     margin: 0;
     padding: 0;
-    position: absolute;
-    top: 200px;
-    left: 55px;
-    margin-bottom: 20px;
-    
     
 }
 
@@ -73,38 +76,36 @@
 
     margin:  30px 0px 0px;
     text-transform: capitalize;
-    font-size: 10px;
+    font-size: 25px;
     font-family: arial;
-    padding-top: 10px;
 }
 
 
 .header-page{
-    width: 90%;
+    width: 80%;
      margin: auto;
-    height: 30px;
+    height: 60px;
     display: flex;
     align-items: center;
     background-color: white;
     color: black;
     border: 2px solid black;
     border-radius: 10px;
-   
-   
+    position: absolute;
+    bottom: 30px;
    
     justify-content: center;
-    margin-left: 5%;
-position: absolute;
-    bottom: 6%;
-    left: 0px;
+    margin-left:10% ;
+
+ 
 
    
 }
 
 .header-page p{
-    font-size: 12px;
+    font-size: 20px;
     text-transform: capitalize;
-    padding: 3px 0px;
+    padding: 3px 5px;
 
     margin-left: 20px;
 }
@@ -112,33 +113,35 @@ position: absolute;
 .header-page a{
     color: rgb(0, 191, 255);
     text-decoration: none;
-    font-size: 10px;
+    font-size: 26px;
     font-weight: 500;
     font-family: segoe ui;
-    margin-left: 5px;
+    margin-left: 40px;
     
     
 
 }
 .pure{
-    
-  
+    display: flex;
+    justify-content: center;
     
     
 }
 .pure h2{
-    font-size: 25px;
+    font-size: 60px;
     text-decoration: none;
     color: rgb(116, 255, 116);
     margin-bottom: 80px;
     padding-bottom: 10px;
 font-family: sans-serif;
- position: absolute;
-    top: 320px;
-    left: 55px;
+margin-top: 40px;
 }
 
-/*hotel image in mobile responsive */
+
+
+
+
+
 
 
 
@@ -153,29 +156,29 @@ font-family: sans-serif;
 .hotel-detail h1{
     text-align: center;
    color: rgb(207, 172, 0);
-   font-size: 35px;
+   font-size: 55px;
    font-weight: 600;
    font-family: serif;
-   padding-top: 10px;
+   padding-top: 2rem;
 }
 
 .row{
  
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
    
     flex-wrap: wrap;
-     gap: 5px;
+     gap: 10px;
      width: 100%;
-     row-gap: 10px;
+     row-gap: 20px;
    
 }
 
 
 
 .hotel-col{
-    height: 180px;
+    height: 300px;
     flex-basis: 30%;
     width: 30%;
     background-color: white;
@@ -185,16 +188,16 @@ font-family: sans-serif;
     
 }
 .box-img{
-    height: 150px;
+    height: 250px;
     width: 100%;
     background-image: url("Bandhu_hotel.jpg");
     background-size: cover;
-    
+    overflow: hidden;
  
     margin: 5px ;
 }
 .box-img1{
-     height: 150px;
+    height: 250px;
     width: 100%;
     background-image: url("vip.jpeg");
     background-size: cover;
@@ -204,7 +207,7 @@ font-family: sans-serif;
     
 }
 .box-img2{
-   height: 150px;
+    height: 250px;
     width: 100%;
     background-image: url("team.jpeg");
     background-size: cover;
@@ -214,7 +217,7 @@ font-family: sans-serif;
 
 }
 .box-img3{
-    height: 150px;
+    height: 250px;
     width: 100%;
     background-image: url("kitchnstaf.jpeg");
     background-size: cover;
@@ -223,7 +226,7 @@ font-family: sans-serif;
     margin: 5px ;
 }
 .box-img4{
-     height: 150px;
+    height: 250px;
     width: 100%;
     background-image: url("hoteltable.jpeg");
     background-size: cover;
@@ -233,14 +236,12 @@ font-family: sans-serif;
 }
    
 .box-img5{
-     height: 137px;
+    height: 250px;
     width: 100%;
     background-image: url("vegiterian.jpeg");
     background-size: cover;
   overflow: hidden;
-    margin: 0px 5px;
-    margin-bottom: 40px;
-    
+    margin: 5px ;
     background-repeat: no-repeat;
     
 
@@ -249,31 +250,26 @@ font-family: sans-serif;
 
 
 .box h2{
-    font-size: 15px;
-    padding: 0 0px;
+    padding: 0 5px;
     color: rgb(0, 0, 0);
     text-align: center;
 }
-.pv{
-    font-size: 10px;
-}
+
 .hotel-col :hover{
     box-shadow: 0px 0px 80px rgb(255, 234, 0);
     
 }
 
-/* Menu Section */
-
 
 .menu-detail{
    height: 100vh;
     width: 100%;
-  margin-top: 30px;
+  margin-top: 400px;
   
 }
 
 .menu-detail h2{
-    font-size: 35px;
+    font-size: 55px;
     font-weight: 700;
     text-align: center;
       color: rgb(207, 172, 0);
@@ -281,13 +277,13 @@ font-family: sans-serif;
 }
 
 #pera{
-    font-size: 15px;
+    font-size: 20px;
   text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .menu-detail h1{
-    margin: 30px 0px 20px;
+    margin: 40px 0px;
     margin-left: 10px;
     text-align: center;
 }
@@ -297,22 +293,22 @@ font-family: sans-serif;
     margin-top: 30px;
    
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
    flex-wrap: wrap;
    row-gap: 20px;
     
 }
 
 .menu-blank{
-    height: 200px;
-    flex-basis: 32%;
+    height: 280px;
+    flex-basis: 23%;
     box-sizing: border-box;
     background-color: white;
     border-radius: 10px;
     transition: 1s;
 }
 .menu-content{
-    height: 190px;
+    height: 280px;
     width: 90%;
     text-align: left;
     margin-left: 0px;
@@ -333,39 +329,39 @@ font-family: sans-serif;
 
 }
 .break-pic{
-     height: 140px;
+     height: 200px;
     width: 100%;
      background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
 }
+
 .menu-content h3{
-    margin-top: 5px;
+    margin-top: 8px;
     font-size: 15px;
 }
 .menu-content p{
     margin-top: 0px;
-    font-size: 12px;
 }
 
 #big{
     font-size: 13px;
 }
-.container1{
+
+.main-img{
     width: 100%;
-    margin-top: 30px;
-   
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   row-gap: 20px;
+    background-size: cover;
+    height: 200px;
+    margin-left: 5px ;
+    margin-top: 5px;
+   margin-right: 20px;
+  
+border-radius: 10px;
 }
 
-
-
 .menu-blank1{
-    height: 210px;
-    flex-basis: 32%;
+    height: 280px;
+    flex-basis: 15%;
     box-sizing: border-box;
     background-color: white;
     border-radius: 10px;
@@ -386,16 +382,6 @@ font-family: sans-serif;
     padding: 10px 0px;
     
 }
-.main-img{
-    width: 100%;
-    background-size: cover;
-    height: 150px;
-    margin-left: 2px ;
-    margin-top: 0px;
-   margin-right: 20px;
-  
-border-radius: 10px;
-}
  .menu-blank1:hover{
     
     transform: scale(1.2);
@@ -406,12 +392,11 @@ border-radius: 10px;
 
 .menu-content1 h3{
    margin-top: 5px;
-    font-size: 12px;
+    font-size: 13px;
     color: black;
 }
 .menu-content1 p{
     margin-top: 0px;
-    font-size: 12px;
 }
 .roti{
         margin-top: 50px 400px;
@@ -422,36 +407,32 @@ border-radius: 10px;
     position: relative;
 }
 
-/* hotel facility */
-
-
-
 .facility{
     width: 100%;
-   
     position: absolute;
-    top: 4200px;
+    top: 4500px;
+    
     
 }
 
-.fac-container1{
+.fac-container{
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
-    height: 610px;
+    justify-content: space-evenly;
+    height: 700px;
    
 }
 .fac-col{
-    flex-basis: 50%;
+    flex-basis: 58%;
     box-sizing: border-box;
     border: 2px solid green;
        text-align: left;
-       margin-left: 15px;
+       margin-right: 30px;
 }
 
 .fac-col h2{
     text-align: center;
-    margin-top: 24px;
+    margin-top: 30px;
     margin-bottom: 20px;
     color: rgb(0, 255, 55);
     font-weight: 700;
@@ -460,18 +441,18 @@ border-radius: 10px;
 
 .fac-col p{
     text-transform: capitalize;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 20px;
     white-space:inherit;
-    line-height: 15px;
+    line-height: 25px;
     padding-bottom: 15px;
-    font-size: 10px;
+    font-size: 20px;
 }
 #bandhu{
     margin-bottom: 20px;
-   
+    padding-bottom: 20px;
     color: rgb(0, 205, 130);
-    font-size: 15px;
+    font-size: 25px;
     margin-left: 10px;
     text-decoration: underline;
 }
@@ -481,9 +462,9 @@ border-radius: 10px;
     text-align: center;
    
     background-color: rgb(224, 150, 2);
-    padding: 0px 6px;
+    padding: 12px 34px;
     margin-left: 10px;
-     margin-top: 10px;
+     margin-top: 90px;
      border: 1px solid black;
      border-radius: 40px;
   transition: 0.6s;
@@ -494,8 +475,7 @@ border-radius: 10px;
     ;
 }
 .fac-content{
-    margin-left: 20px;
-    flex-basis: 35%;
+    flex-basis: 32%;
     
     border-radius: 20px;
     display: flex;
@@ -512,7 +492,7 @@ transition: 1s;
     transform: scale(1.2);
 }
 .fac-content h3{
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 0 0 1px solid black;
@@ -523,66 +503,48 @@ transition: 1s;
 
 .fac-content p{
     margin-bottom: 3px;
-    font-size: 8px;
+    font-size: 0px;
     line-height: 20px;
     top: 30%;
 }
 
 
 .fac-col1{
-    height: 580px;
-    margin-right: 20px;
+    height: 560px;
+    width: 10%;
     display: flex;
     flex-direction: column;
-     flex-basis: 35%;
-       
+    
+       row-gap: 20px;
        
 }
 
 
-.fac-imgi{
-    width: 100%;
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    
-}
+
 .fac-img{
-    width: 100%;
-    height: 140px;
+    width: 200px;
+    height: 500%;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
     
 }
-
-.fac-img1{
-     width: 100%;
-    height: -100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    
-}
-
-/* challange and gift*/
 
 .challange
 {
     
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
 .challange h2{
-    font-size: 25px;
+    font-size: 55px;
     text-align: center;
     margin-top: 0px;
 }
 
 .cha-contener{
     width: 100%;
-    margin: 30px 0px;
+    margin: 40px 0px;
     display: flex;
     justify-content: space-evenly;
    
@@ -591,19 +553,19 @@ transition: 1s;
 }
 
 .cha-col{
-    height: 140px;
+    height: 200px;
    
     flex-basis: 32%;
 
 }
 .cha-img{
-    width: 90%;
-    height: 100px;
+    width: 80%;
+    height: 200px;
     
     background-size: contain;
     border-radius: 20px;
     
-      margin: 10px 5px;
+    margin: 10px 5px;
       transition: 1.2s;
   
 }
@@ -613,32 +575,29 @@ transition: 1s;
 }
 .cha-col h3{
     text-align: center;
-    font-size: 12px;
-    
+    font-size: 30px;
+    margin-right: 55px;
+
 }
 .cha-col p{
-    font-size:10px;
+    font-size:25px;
     text-align: left;
     margin-left: 15px;
     
 }
-
-/* Social Media*/
-
-
 .social{
     width: 100%;
-    margin-top: 140px;
+    margin-top: 370px;
 
 }
 .social h2{
-    font-size: 32px;
+    font-size: 45px;
     text-align: center;
     color: rgb(255, 187, 0);
 }
 
 .link-contener{
-    margin: 30px 0px;
+    margin: 60px 15px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -646,105 +605,93 @@ transition: 1s;
 .link{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 196, 0);
-    padding: 1px 0px;
-    border-radius: 80px;
+    padding: 18px 50px;
+    border-radius: 30px;
     transition: 1s;
 }
 
 .icon{
-    padding-left: 30px;
-    transform: scale(1);
+    margin-right: 60px;
+    transform: scale(2);
+    margin-bottom: 5px;
+    padding-bottom: 4px;
 }
 .link a{
-    
-    font-size: 10px;
+    font-size: 17px;
     font-weight: 600;
     text-decoration: none;
     color: black;
-   
+    padding-top: 20px;
 }
-.link p{
-    padding-left: 10px;
-}
+
 .link:hover{
     color: black;
     background-color: white;
     
 }
 
-
-/* about us*/
-
-
-
-
 .aboutdetail{
-    margin-top: 40px;
-    width: 95%;
+    margin-top: 50px;
+    width: 100%;
 }
 
 .aboutdetail h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 45px;
     margin: 20px 0px;
 }
 
 .aboutdetail p{
     text-align: center;
-    font-size: 15px;
+    font-size: 30px;
     margin-top: 20px;
 
 }
 
 .about-container{
-    height: 800px;
+    height: 1030px;
     display: flex;
-    flex-direction: column;
-
+    justify-content: space-evenly;
 }
 
 .about-container h2{
-    font-size: 2px;
+    font-size: 40px;
     margin-left: 40px;
     margin-bottom: 50px;
 }
-.bandhu{
-    font-size: 15px;
-}
+
 .about-col-left{
     height: 100%;
-   
+    flex-basis: 78%;
     text-align: left;
-    margin-top: 40px 10px 0px;
+    margin-top: 40px 50px 0px;
     background-color: rgb(223, 224, 215);
     color: black;
     border-radius: 0px;
     position: relative;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .about-col-left p{
     text-align: left;
-    line-height: 14px;
-    font-size: 10px;
+    line-height: 30px;
+    font-size: 15px;
     text-transform: capitalize;
     margin: 10px 20px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .about-col-left a{
-   margin-left: 20px;
+   margin-left: 50px;
     text-align: left;
-    padding: 4px 5px 2px;
+    padding: 20px 50px;
     background-color: rgb(255, 136, 0);
     color: rgb(255, 255, 255);
     border-radius: 10%;
   position: absolute;
-  top: 450px;
-  left: 50px;
-  text-decoration: none;
-  font-size: 14px;
+  top: 960px;
+  left: 70px;
     
 }
 .about-col-left a:hover{
@@ -754,128 +701,108 @@ transition: 1s;
 
 .about-col-right{
     flex-basis: 20%;
+    margin-top: 20%;
     
 }
+.owner-img{
+    height: 50%;
+    width: 300px;
 
-.about-col-right img{
-  margin-top: 30px;
-    height: 230px;
-   
-    background-size: cover;
-    margin-left: 100px;
-    box-shadow: 0px 0px 69px  rgb(255, 180, 41);
-    border-radius: 30px;
 }
-
-.about-col-right h2{
-    font-size: 22px;
-}
-
-
-
-
-
-/* thankyou*/
-
 
 .thank{
-    height: 200px;
+    height: 300px;
     width: 90%;
     margin: auto;
     border: 2px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
     flex-direction: column;
 }
 
 .thank h1{
-    font-size: 25px;
+    font-size: 55px;
     color: green;
     margin-bottom: 0px;
 
 }
 
 .thank h2{
-    font-size: 23px;
+    font-size: 40px;
     color: orange;
 }
 
 .thank p{
-    font-size: 13px;
+    font-size: 30px;
     margin-top: 20px;
 }
 .backtop{
-    height: 50px;
+    height: 90px;
     width: 90%;
     background-color: antiquewhite;
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-   margin-top: 20px;
+   margin-top: 50px;
    border-radius: 20px;
    transition: 1s;
-
    margin-left: 5%;
 }
 
 .backtop a{
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
     color: black;
 }
-
-
-/* rating section */
-
-
+.backtop:hover{
+    background-color: white;
+}
 .rating
 {
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .rating h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 65px;
     color: orange;
 }
 
 .rating h3{
     margin-top: 10px;
     text-align: center;
-    font-size: 14px;
+    font-size: 40px;
     color: rgb(4, 255, 184);
 }
 
 .rat-container{
-    width: 100%;
-    margin: 20px 0px;
+    margin: 40px 30px;
     display: flex;
-    justify-content: space-evenly;
-    column-gap: 0px;
-     flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
     row-gap: 20px;
 }
 
 .rat-col{
-    height: 130px;
-    flex-basis: 40%;
+    height: 250px;
+    flex-basis: 48%;
     background-color: antiquewhite;
     border-radius: 20px;
-   
-   
+    position: relative;
 }
 
 .part1{
-    
-    
+    display: flex;
+    flex-direction: row;
     position: relative;
 }
 .rat-img{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     background-size: cover;
     border-radius: 50%;
     margin-left: 5px;
@@ -886,16 +813,15 @@ transition: 1s;
 
 .rat-col p{
     text-align: left;
-    font-size: 8px;
+    font-size: 18px;
    padding-left: 40px;
-   top: 0px;
+   top: 10px;
    color: black;
     
    
     
     
 }
-
 
 .word{
     font-size: 15px;
@@ -909,11 +835,10 @@ transition: 1s;
     display: flex;
     justify-content: flex-end;
     margin-right: 30px;
-    padding-top: 10px;
 }
 
 .part1 h2{
-    font-size: 19px;
+    font-size: 26px;
      margin-left: 55px;
    
      position: absolute;
@@ -922,162 +847,141 @@ transition: 1s;
 }
 
 
-
-/* contect us */
-
 .contect{
-    margin-top: 30px;
+    margin-top: 60px;
 
 }
 
 .contect h1{
-    font-size: 25px;
+    font-size: 55px;
     text-align: center;
 
 }
 .contect p{
-    padding: 0px 4px;
-    font-size: 10px;
+    font-size: 35px;
     text-align: center;
     color: rgb(85, 238, 85);
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 #h3{
     margin: 3px 30px ;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 26px;
     
 
 }
 
 .directcontect{
-    margin: 20px 30px;
+    margin: 50px 30px;
    text-align: center;
-   font-size: 18px;
-   font-weight: 550;
     
 }
 
 .directcontect h3{
     text-align: left;
    
-    font-size: 15px;
-    margin-top: 30px;
+    font-size: 40px;
+    margin-top: 40px;
     padding-left: 50px;
      text-align: left;
      margin-left: 30px;
       margin-right: 80px;
 }
 .con-main{
-    display: block;
-    gap: 5px;
+    display: flex;
+    gap: 10px;
 
 }
 .contect-col-left{
-    
-     height: 450px;
+    flex-basis: 50%;
+     height: 700px;
     border: 2px solid orange;
     box-sizing: border-box;
-    margin: 30px 0px;
+    margin: 30px 20px;
     position: relative;
    
 }
 .contect-col-left h2{
     
     text-align: center;
-    font-size: 15px;
-    margin: 20px 10px ;
-    padding-bottom: 10px;
+    font-size: 30px;
+    margin: 20px ;
+    padding-bottom: 30px;
     font-size: 30px;
     font-weight: 550;
     margin-left: 30px;
 }
 
 .input{
-    margin-top: 30px;
-    margin-left: 10px;
+    margin-top: 40px;
 }
 .input input{
-    margin: 20px 0px;
-    padding: 5px 6px;
+    margin: 20px 20px;
+    padding: 20px 40px;
     font-size: 20px;
      display: block;
      border-radius: 20px;
-     margin: 20px 0px;
+     margin: 20px 50px;
 }
 
 .btn textarea{
     padding: 0px 20px;
-    font-size: 18px;
+    font-size: 30px;
     position: absolute;
    
     border-radius: 10px;
-    width: 170px;
-    height: 70px;
-    left: 10px;
+    width: 280px;
+    height: 150px;
+    left: 50px;
     
 }
 
 
 
 .submit button{
-    padding: 12px 30px;
+    padding: 12px 35px;
     background-color: orange;
     border-radius: 20px;
     color: black;
    display: inline;
   position: absolute;
-  top: 370px;
+  top: 580px;
   left: 60px;
-  font-size: 10px;
+  font-size: 20px;
   transition: 1s;
 }
 .submit button:hover{
     background-color: gray;
 }
 .contect-col-right{
-    flex-basis: 10%;
+    flex-basis: 35%;
     border: none;
-    margin-left: 10px;
-    display: none;
-   
-}
-body{
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-.contect-col-left{
-    width: 100%;
-}
-.contect-col-right h2{
-     
+    margin-left: 30px;
     
+}
+
+.contect-col-right h2{
     margin-top: 30%;
-    font-size: 10px;
+    font-size: 40px;
     color: rgb(126, 255, 126);
     text-transform: capitalize;
     text-align: center;
-   
-   
+   row-gap: 10px;
+   line-height: 50px;
+
 }
 
 .footer{
-    margin-top: 50px;
     height: 80px;
     width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
- 
 }
 
 .footer p{
     font-size: 16px;
 
 }
-
-
 }
