@@ -4,7 +4,7 @@
 
 .header{
     width: 100%;
-    height: 163vw;
+    height: 133vw;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(Bandhu_hotel.jpg);
    position:relative;
     background-size: cover;
@@ -102,7 +102,7 @@ position: absolute;
 }
 
 .header-page p{
-    font-size: 8px;
+    font-size: 12px;
     text-transform: capitalize;
     padding: 3px 0px;
 
@@ -253,7 +253,7 @@ font-family: sans-serif;
     text-align: center;
 }
 .pv{
-    font-size: 15px;
+    font-size: 10px;
 }
 .hotel-col :hover{
     box-shadow: 0px 0px 80px rgb(255, 234, 0);
@@ -310,7 +310,7 @@ font-family: sans-serif;
     transition: 1s;
 }
 .menu-content{
-    height: 210px;
+    height: 190px;
     width: 90%;
     text-align: left;
     margin-left: 0px;
@@ -330,57 +330,10 @@ font-family: sans-serif;
     
 
 }
-.pic1{
-    height: 140px;
-    width: 100%;
-    background-image: url("menu/breackfast/Planeparatha.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-    
-    
-   
-}
-
-.pic2{
+.break-pic{
      height: 140px;
     width: 100%;
-    background-image: url("menu/breackfast/aloopartha.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
-
-.pic3{
-    height: 140px;
-    width: 100%;
-    background-image: url("menu/breackfast/aloopyaj.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
-
-.pic4{
-    height: 140px;
-    width: 100%;
-    background-image: url("menu/breackfast/panirparatha.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
-.pic5{
-     height: 140px;
-    width: 100%;
-    background-image: url("menu/breackfast/gobhiparatha.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
-.pic6{
-     height: 140px;
-    width: 100%;
-    background-image: url("menu/breackfast/dhosa.jpeg");
-    background-size: cover;
+     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
 }
@@ -475,7 +428,7 @@ border-radius: 10px;
     width: 100%;
    
     position: absolute;
-    top: 843vh;
+    top: 4200px;
     
 }
 
@@ -483,7 +436,7 @@ border-radius: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
-    height: 610px;
+    height: 560px;
    
 }
 .fac-col{
@@ -725,7 +678,7 @@ transition: 1s;
 
 .aboutdetail{
     margin-top: 40px;
-    width: 97%;
+    width: 95%;
 }
 
 .aboutdetail h2{
@@ -781,13 +734,14 @@ transition: 1s;
 .about-col-left a{
    margin-left: 20px;
     text-align: left;
-    padding: 4px 10px 0px;
+    padding: 4px 10px 10px;
     background-color: rgb(255, 136, 0);
     color: rgb(255, 255, 255);
     border-radius: 10%;
   position: absolute;
-  top: 450px;
+  top: 400px;
   left: 50px;
+  text-decoration: none;
     
 }
 .about-col-left a:hover{
@@ -805,7 +759,7 @@ transition: 1s;
     height: 230px;
    
     background-size: cover;
-    margin-left: 70px;
+    margin-left: 100px;
     box-shadow: 0px 0px 69px  rgb(255, 180, 41);
     border-radius: 30px;
 }
@@ -851,7 +805,7 @@ transition: 1s;
 }
 .backtop{
     height: 50px;
-    width: 100%;
+    width: 90%;
     background-color: antiquewhite;
     border: 2px solid black;
     display: flex;
@@ -860,6 +814,8 @@ transition: 1s;
    margin-top: 20px;
    border-radius: 20px;
    transition: 1s;
+
+   margin-left: 5%;
 }
 
 .backtop a{
@@ -874,7 +830,7 @@ transition: 1s;
 
 .rating
 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .rating h2{
@@ -892,7 +848,7 @@ transition: 1s;
 
 .rat-container{
     width: 100%;
-    margin: 40px 0px;
+    margin: 20px 0px;
     display: flex;
     justify-content: space-evenly;
     column-gap: 0px;
@@ -905,11 +861,12 @@ transition: 1s;
     flex-basis: 40%;
     background-color: antiquewhite;
     border-radius: 20px;
-    position: relative;
+   
+   
 }
 
 .part1{
-    display: flex;
+    
     
     position: relative;
 }
@@ -976,7 +933,8 @@ transition: 1s;
 
 }
 .contect p{
-    font-size: 13px;
+    padding: 0px 4px;
+    font-size: 10px;
     text-align: center;
     color: rgb(85, 238, 85);
     padding-bottom: 30px;

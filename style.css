@@ -324,58 +324,14 @@ font-family: sans-serif;
     
 
 }
-.pic1{
-    height: 200px;
+.break-pic{
+     height: 200px;
     width: 100%;
-    background-image: url("menu/breackfast/Planeparatha.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-    
-   
-}
-
-.pic2{height: 200px;
-    width: 100%;
-    background-image: url("menu/breackfast/aloopartha.jpeg");
-    background-size: cover;
+     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
 }
 
-.pic3{
-    height: 200px;
-    width: 100%;
-    background-image: url("menu/breackfast/aloopyaj.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
-
-.pic4{
-    height: 200px;
-    width: 100%;
-    background-image: url("menu/breackfast/panirparatha.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
-.pic5{
-    height: 200px;
-    width: 100%;
-    background-image: url("menu/breackfast/gobhiparatha.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
-.pic6{
-    height: 200px;
-    width: 100%;
-    background-image: url("menu/breackfast/dhosa.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
 .menu-content h3{
     margin-top: 8px;
     font-size: 15px;
@@ -822,7 +778,7 @@ transition: 1s;
     position: relative;
 }
 
-.part{
+.part1{
     display: flex;
     flex-direction: row;
     position: relative;
